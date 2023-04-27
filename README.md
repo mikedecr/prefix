@@ -50,12 +50,15 @@ devtools::install_github("mikedecr/prefix")
     - xor already built in
     - item_or, item_and naming
 - [ ] Indexing / subsetting operations (including set %in%)
+- misc:
+    - [x] range / iota
 
 Less of a priority:
 
 - [ ] extract-or-replace? (@)
 - [ ] Control flow keywords?
-- [ ] formula, assignment
+- [ ] formula
+- [ ] assignment
 
 
 ## Example
