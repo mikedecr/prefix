@@ -39,18 +39,17 @@ devtools::install_github("mikedecr/prefix")
 
 ## Example
 
-For a binary operator `%f%`, a _prefix_ 
 
 ``` r
 library(prefix)
 
-mult(3, 4)
+mult(3, 4)  # a * b
 # [1] 12
 
-isin(7, c(7, 8, 9))
+isin(7, c(7, 8, 9))  # a %in% b
 # [1] TRUE
 
-or(0, FALSE)
+or(0, FALSE)  # a | b
 # [1] FALSE
 ```
 
