@@ -1,4 +1,5 @@
 
 #' @export
-mult = `*`
+mult = function(a, b) a * b
+    
 
