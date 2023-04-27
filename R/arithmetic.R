@@ -1,5 +1,5 @@
 
+
 #' @export
-mult = function(a, b) a * b
-    
+mult <- function(a, b) a * b
 
