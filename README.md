@@ -4,8 +4,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-`prefix` provides an ergonomic _prefix function_ interface to infix operators in R.
-The goal of `prefix` is to provide a more natural functional interface for these operations, similar to functional languages like Haskell and Lisp(s).
+`prefix` provides an ergonomic _prefix function_ interface to built-in infix operators in R.
+We specify "ergonomic" because, although there is a prefix interface to these operators---<code>\`*\`(2, 3)</code> is valid R code that returns `6`---it is awkward to invoke.
+
+`prefix` provides this functional interface with a more natural _feel_, similar to the way you might invoke these operations in functional languages like Haskell and Lisp(s).
 
 
 ## What do "infix" and "prefix" mean?
@@ -25,7 +27,6 @@ mult <- function(a, b) {
 ```
 
 You may be aware that this is _already possible_ in R, but the syntax is clumsy.
-You have to write the operator in backticks: <code>\`*\`(2, 3)</code> is valid R code (the result is `6`, naturally).
 This package binds these operations to function names that are more intuitive and readable.
 
 
@@ -37,8 +38,8 @@ You can install the development version of prefix like so:
 devtools::install_github("mikedecr/prefix")
 ```
 
-## Example
 
+## Example
 
 ``` r
 library(prefix)
