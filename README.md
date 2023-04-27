@@ -44,8 +44,10 @@ devtools::install_github("mikedecr/prefix")
 ## To-do
 
 - [x] Basic arithmetic
-- [ ] Matrix arithmetic
+- [x] Matrix arithmetic
+    - outer + kronecker already built in
 - [x] Logical operators
+    - xor already built in
     - item_or, item_and naming
 - [ ] Indexing / subsetting operations (including set %in%)
 
