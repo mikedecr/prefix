@@ -9,6 +9,8 @@ We specify "ergonomic" because, although there is a prefix interface to these op
 
 `prefix` provides this functional interface with a more natural _feel_, similar to the way you might invoke these operations in functional languages like Haskell and Lisp(s).
 
+**This package is in its infancy. See the _To-do_ section below.**
+
 
 ## What do "infix" and "prefix" mean?
 
@@ -37,6 +39,15 @@ You can install the development version of prefix like so:
 ``` r
 devtools::install_github("mikedecr/prefix")
 ```
+
+
+## To-do
+
+- [x] Basic arithmetic
+- [ ] Matrix arithmetic
+- [ ] Logical operators
+- [ ] Indexing / subsetting operations
+- [ ] Control flow keywords?
 
 
 ## Example
