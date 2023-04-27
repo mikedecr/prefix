@@ -2,6 +2,7 @@
 
 export(add)
 export(div)
+export(dot)
 export(floordiv)
 export(ge)
 export(gt)

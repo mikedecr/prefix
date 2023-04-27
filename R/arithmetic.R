@@ -27,3 +27,10 @@ mod = `%%`
 #' prefix alias for `a %/% b`
 #' @export
 floordiv = `%/%`
+
+#' prefix alias for `a %*% b`
+#' @export
+dot = `%*%`
+
+# kronecker and outer already defined =)
+
