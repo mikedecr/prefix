@@ -49,7 +49,7 @@ devtools::install_github("mikedecr/prefix")
 - [x] Logical operators
     - xor already built in
     - item_or, item_and naming
-- [ ] Indexing / subsetting operations (including set %in%)
+- [/] Indexing / subsetting operations (including set %in%)
     - how to do `$`?
 - misc:
     - [x] range / iota
