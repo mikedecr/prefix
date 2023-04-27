@@ -1,65 +1,43 @@
 
-# prefix
+# The `prefix` package for R
 
 <!-- badges: start -->
 <!-- badges: end -->
 
 `prefix` provides an ergonomic _prefix function_ interface to built-in infix operators in R.
 
-For example, instead of the _infix_ expression `2 * 3`, we can write the _prefix_ expression `mult(2, 3)`.
+In short:
 
-Although R already has a prefix interface to these operators---<code>\`*\`(2, 3)</code> is valid R code that returns `6`---the backticks make it awkward to invoke.
+- Expressions like `2 * 3` are called _infix_ expressions. The operator `*` goes between its arguments.
+- Every infix expression can be written as a _prefix_ expression in R, such as <code>\`*\`(2, 3)</code>. But it isn't very easy to type the backticks, and it isn't easy to read.
+- `prefix` provides new function bindings for these operators, so your can write your prefix expression as `mult(2, 3)` instead. Much easier!
+
 `prefix` provides this functional interface with a more natural _feel_, similar to the way you might invoke these operations in functional languages like Haskell and Lisp(s).
 
+
+## ...but why?
+
 The main idea in `prefix` is either banal or sublime, depending on your style.
-At its core, `prefix` is nothing but new names for already-existing functions.
-If you are happy using infix operators, `prefix` will appear useless.
-But if you are partial to the functional style (pun intended), `prefix` allows you to interact with basic operations in R that uniformly and consistently with virtually all other functions, allowing smoother and more expressive function composition.
-This is exactly what functional programming dorks want!
+
+As it is implemented in the code, `prefix` is nothing but new names for existing functions.
+If you are happy using infix notation, `prefix` will seem useless.
+
+But if you are partial to the functional style (pun intended), `prefix` allows you to interact with primitive operations in R uniformly and consistently with all other functions, allowing smoother and more expressive function composition.
 
 
 ## Caveats
 
 This package is in its infancy and subject to aggressive change.
 
-See the **to-do** section below.
-
-## Installation
-
-You can install the development version of `prefix` (at your own risk) with `devtools`:
-
-``` r
-# in the R REPL:
-devtools::install_github("mikedecr/prefix")
-```
-
-
-## More info: what do "infix" and "prefix" mean?
-
-An _infix operator_ is a symbol that, when written between two R objects, computes a function on those objects.
-For instance, the multiplication symbol `*` is an infix operator that computes a function of `a` and `b`, and that function happens to be their product.
-Infix operators are also called "binary" operators, because they are operations on two arguments (or "operands"), although "infix" refers more properly to the location of the operator.
-Writing statements with infix operators is known as "infix notation".
-
-"Prefix" notation, meanwhile, puts the operator _before_ the operands.
-So instead of `a * b`, we can write `mult(a, b)`, where you can imagine that `mult` is a function defined as such:
-
-```{r}
-mult <- function(a, b) {
-    return(a * b)
-}
-```
-
-
-## To-do
+Here's a running list of to-dos:
 
 - [x] Basic arithmetic
 - [x] Matrix arithmetic
-    - outer + kronecker already built in
+    - [x] outer + kronecker already built in
 - [x] Logical operators
-    - xor already built in
-    - item_or, item_and naming
-- [/] Indexing / subsetting operations (including set %in%)
+    - [x] xor already built in
+    - [x] item_or, item_and naming
+- [-] Indexing / subsetting operations (including set %in%)
     - how to do `$`?
 - misc:
     - [x] range / iota
@@ -72,7 +50,17 @@ Less of a priority:
 - [ ] assignment
 
 
-## Example
+## Installation
+
+You can install the development version of `prefix` (at your own risk) with `devtools`:
+
+``` r
+# in the R REPL:
+devtools::install_github("mikedecr/prefix")
+```
+
+
+## Examples
 
 ``` r
 library(prefix)
