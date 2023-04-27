@@ -25,6 +25,14 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(prefix)
-## basic example code
+
+mult(3, 4)
+# [1] 12
+
+isin(7, c(7, 8, 9))
+# [1] TRUE
+
+or(0, FALSE)
+# [1] FALSE
 ```
 
