@@ -16,30 +16,30 @@ lt = `<`
 le = `<=`
 
 #' eq(a, b) = a == b
-#' export
+#' @export
 eq = `==`
 
 #' ne(a, b) = a != b
-#' export
+#' @export
 ne = `!=`
 
 #' not(a) = !a
-#' export
+#' @export
 not = `!`
 
 #' and(a, b) = a & b
-#' export
+#' @export
 and = `&`
 
 #' or(a, b) = a | b
-#' export
+#' @export
 or = `|`
 
 #' item_and(a, b) = a & b
-#' export
+#' @export
 item_and = `&&`
 
 #' item_or(a, b) = a || b
-#' export
+#' @export
 item_or = `||`
 

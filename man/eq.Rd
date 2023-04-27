@@ -2,12 +2,10 @@
 % Please edit documentation in R/logic.R
 \name{eq}
 \alias{eq}
-\title{eq(a, b) = a == b
-export}
+\title{eq(a, b) = a == b}
 \usage{
 eq()
 }
 \description{
 eq(a, b) = a == b
-export
 }

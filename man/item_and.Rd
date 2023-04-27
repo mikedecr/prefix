@@ -2,12 +2,10 @@
 % Please edit documentation in R/logic.R
 \name{item_and}
 \alias{item_and}
-\title{item_and(a, b) = a & b
-export}
+\title{item_and(a, b) = a & b}
 \usage{
 item_and()
 }
 \description{
 item_and(a, b) = a & b
-export
 }

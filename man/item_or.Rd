@@ -2,12 +2,10 @@
 % Please edit documentation in R/logic.R
 \name{item_or}
 \alias{item_or}
-\title{item_or(a, b) = a || b
-export}
+\title{item_or(a, b) = a || b}
 \usage{
 item_or()
 }
 \description{
 item_or(a, b) = a || b
-export
 }

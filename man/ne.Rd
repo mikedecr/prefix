@@ -2,12 +2,10 @@
 % Please edit documentation in R/logic.R
 \name{ne}
 \alias{ne}
-\title{ne(a, b) = a != b
-export}
+\title{ne(a, b) = a != b}
 \usage{
 ne()
 }
 \description{
 ne(a, b) = a != b
-export
 }

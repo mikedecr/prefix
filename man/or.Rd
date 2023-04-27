@@ -2,12 +2,10 @@
 % Please edit documentation in R/logic.R
 \name{or}
 \alias{or}
-\title{or(a, b) = a | b
-export}
+\title{or(a, b) = a | b}
 \usage{
 or()
 }
 \description{
 or(a, b) = a | b
-export
 }

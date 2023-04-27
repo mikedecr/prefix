@@ -2,12 +2,10 @@
 % Please edit documentation in R/logic.R
 \name{not}
 \alias{not}
-\title{not(a) = !a
-export}
+\title{not(a) = !a}
 \usage{
 not()
 }
 \description{
 not(a) = !a
-export
 }
