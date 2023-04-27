@@ -12,14 +12,15 @@ Although R already has a prefix interface to these operators---<code>\`*\`(2, 3)
 `prefix` provides this functional interface with a more natural _feel_, similar to the way you might invoke these operations in functional languages like Haskell and Lisp(s).
 
 The main idea in `prefix` is either banal or sublime, depending on your style.
-If you are comfortable with binary infix operators, `prefix` will be useless.
-But if you are partial to the functional style (pun intended), `prefix` allows you to interact with basic operations in R that is uniform and consistent with virtually all other R functions, allowing smoother and more expressive function composition between basic and higher-order functions in R.
+At its core, `prefix` is nothing but new names for already-existing functions.
+If you are happy using infix operators, `prefix` will appear useless.
+But if you are partial to the functional style (pun intended), `prefix` allows you to interact with basic operations in R that uniformly and consistently with virtually all other functions, allowing smoother and more expressive function composition.
 This is exactly what functional programming dorks want!
 
 
 ## Caveats
 
-This package is in its infancy and subject to radical change.
+This package is in its infancy and subject to aggressive change.
 
 See the **to-do** section below.
 
