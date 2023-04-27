@@ -25,7 +25,7 @@ mult <- function(a, b) {
 ```
 
 You may be aware that this is _already possible_ in R, but the syntax is clumsy.
-You have to write the operator in backticks: <code>\`*\`(2, 3)\<code> is valid R code (the result is `6`, naturally).
+You have to write the operator in backticks: <code>\`*\`(2, 3)\</code> is valid R code (the result is `6`, naturally).
 This package binds these operations to function names that are more intuitive and readable.
 
 
