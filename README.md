@@ -6,7 +6,7 @@
 
 `prefix` provides ergonomic function names for infix operators (also known as "binary" operators) in R.
 
-Although these operators are already functions---for example, <code>`+`(2, 3)</code> returns `5`---they are inconvenient to type and unintuitive to read.
+Although these operators are already functions---for example, <code>\`+\`(2, 3)</code> returns `5`---they are inconvenient to type and unintuitive to read.
 
 The goal of `prefix` is to provide a more natural functional interface for these operations, similar to functional languages like Haskell and Lisp(s).
 
