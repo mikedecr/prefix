@@ -45,9 +45,15 @@ devtools::install_github("mikedecr/prefix")
 
 - [x] Basic arithmetic
 - [ ] Matrix arithmetic
-- [ ] Logical operators
-- [ ] Indexing / subsetting operations
+- [x] Logical operators
+    - item_or, item_and naming
+- [ ] Indexing / subsetting operations (including set %in%)
+
+Less of a priority:
+
+- [ ] extract-or-replace? (@)
 - [ ] Control flow keywords?
+- [ ] formula, assignment
 
 
 ## Example
