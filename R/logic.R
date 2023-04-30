@@ -1,45 +1,77 @@
-
-#' gt(a, b) = a > b
+#' Prefix function binding for `>`
+#'
+#' `gt(a, b)` is equivalent to `a > b`.
+#' @usage NULL
 #' @export
 gt = `>`
 
-#' ge(a, b) = a >= b
+#' Prefix function binding for `>=`
+#'
+#' `ge(a, b)` is equivalent to `a >= b`.
+#' @usage NULL
 #' @export
 ge = `>=`
 
-#' lt(a, b) = a < b
+#' Prefix function binding for `<`
+#'
+#' `lt(a, b)` is equivalent to `a < b`.
+#' @usage NULL
 #' @export
 lt = `<`
 
-#' le(a, b) = a <= b
+#' Prefix function binding for `<=`
+#'
+#' `le(a, b)` is equivalent to `a <= b`.
+#' @usage NULL
 #' @export
 le = `<=`
 
-#' eq(a, b) = a == b
+#' Prefix function binding for `==`
+#'
+#' `eq(a, b)` is equivalent to `a == b`.
+#' @usage NULL
 #' @export
 eq = `==`
 
-#' ne(a, b) = a != b
+#' Prefix function binding for `!=`
+#'
+#' `ne(a, b)` is equivalent to `a != b`.
+#' @usage NULL
 #' @export
 ne = `!=`
 
-#' not(a) = !a
+#' Prefix function binding for `!`
+#'
+#' `not(a, b)` is equivalent to `a ! b`.
+#' @usage NULL
 #' @export
 not = `!`
 
-#' and(a, b) = a & b
+#' Prefix function binding for `&`
+#'
+#' `and(a, b)` is equivalent to `a & b`.
+#' @usage NULL
 #' @export
 and = `&`
 
-#' or(a, b) = a | b
+#' Prefix function binding for `|`
+#'
+#' `or(a, b)` is equivalent to `a | b`.
+#' @usage NULL
 #' @export
 or = `|`
 
-#' item_and(a, b) = a & b
+#' Prefix function binding for `&&`
+#'
+#' `item_and(a, b)` is equivalent to `a && b`.
+#' @usage NULL
 #' @export
 item_and = `&&`
 
-#' item_or(a, b) = a || b
+#' Prefix function binding for `||`
+#'
+#' `item_or(a, b)` is equivalent to `a || b`.
+#' @usage NULL
 #' @export
 item_or = `||`
 

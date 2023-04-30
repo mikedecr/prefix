@@ -2,10 +2,7 @@
 % Please edit documentation in R/logic.R
 \name{gt}
 \alias{gt}
-\title{gt(a, b) = a > b}
-\usage{
-gt()
-}
+\title{Prefix function binding for \code{>}}
 \description{
-gt(a, b) = a > b
+\code{gt(a, b)} is equivalent to \code{a > b}.
 }

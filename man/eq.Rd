@@ -2,10 +2,7 @@
 % Please edit documentation in R/logic.R
 \name{eq}
 \alias{eq}
-\title{eq(a, b) = a == b}
-\usage{
-eq()
-}
+\title{Prefix function binding for \code{==}}
 \description{
-eq(a, b) = a == b
+\code{eq(a, b)} is equivalent to \code{a == b}.
 }

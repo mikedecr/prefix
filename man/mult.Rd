@@ -2,10 +2,7 @@
 % Please edit documentation in R/arithmetic.R
 \name{mult}
 \alias{mult}
-\title{prefix alias for \code{a * b}}
-\usage{
-mult()
-}
+\title{Prefix function binding for \code{*}}
 \description{
-prefix alias for \code{a * b}
+\code{mult(a, b)} is equivalent to \code{a * b}.
 }

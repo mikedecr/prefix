@@ -2,10 +2,7 @@
 % Please edit documentation in R/set.R
 \name{index}
 \alias{index}
-\title{index(a, b) = a\link{b}}
-\usage{
-index()
-}
+\title{Prefix function binding for \code{[}}
 \description{
-index(a, b) = a\link{b}
+\code{index(a, b)} is equivalent to \code{a[b]}.
 }

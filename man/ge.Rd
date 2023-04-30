@@ -2,10 +2,7 @@
 % Please edit documentation in R/logic.R
 \name{ge}
 \alias{ge}
-\title{ge(a, b) = a >= b}
-\usage{
-ge()
-}
+\title{Prefix function binding for \code{>=}}
 \description{
-ge(a, b) = a >= b
+\code{ge(a, b)} is equivalent to \code{a >= b}.
 }

@@ -2,10 +2,7 @@
 % Please edit documentation in R/arithmetic.R
 \name{floordiv}
 \alias{floordiv}
-\title{prefix alias for \code{a \%/\% b}}
-\usage{
-floordiv()
-}
+\title{Prefix function binding for \code{\%/\%}}
 \description{
-prefix alias for \code{a \%/\% b}
+\code{floordiv(a, b)} is equivalent to \code{a \%/\% b}.
 }

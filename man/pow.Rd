@@ -2,10 +2,7 @@
 % Please edit documentation in R/arithmetic.R
 \name{pow}
 \alias{pow}
-\title{prefix alias for \code{a^b}}
-\usage{
-pow()
-}
+\title{Prefix function binding for \code{^}}
 \description{
-prefix alias for \code{a^b}
+\code{pow(a, b)} is equivalent to \code{a ^ b}.
 }

@@ -2,10 +2,7 @@
 % Please edit documentation in R/logic.R
 \name{not}
 \alias{not}
-\title{not(a) = !a}
-\usage{
-not()
-}
+\title{Prefix function binding for \code{!}}
 \description{
-not(a) = !a
+\code{not(a, b)} is equivalent to \verb{a ! b}.
 }

@@ -2,10 +2,7 @@
 % Please edit documentation in R/arithmetic.R
 \name{add}
 \alias{add}
-\title{prefix alias for \code{a + b}}
-\usage{
-add()
-}
+\title{Prefix function binding for \code{+}}
 \description{
-prefix alias for \code{a + b}
+\code{add(a, b)} is equivalent to \code{a + b}.
 }

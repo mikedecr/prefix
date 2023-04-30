@@ -2,10 +2,7 @@
 % Please edit documentation in R/logic.R
 \name{le}
 \alias{le}
-\title{le(a, b) = a <= b}
-\usage{
-le()
-}
+\title{Prefix function binding for \code{<=}}
 \description{
-le(a, b) = a <= b
+\code{le(a, b)} is equivalent to \code{a <= b}.
 }

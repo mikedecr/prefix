@@ -2,10 +2,7 @@
 % Please edit documentation in R/logic.R
 \name{item_or}
 \alias{item_or}
-\title{item_or(a, b) = a || b}
-\usage{
-item_or()
-}
+\title{Prefix function binding for \code{||}}
 \description{
-item_or(a, b) = a || b
+\code{item_or(a, b)} is equivalent to \code{a || b}.
 }

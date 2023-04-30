@@ -2,10 +2,7 @@
 % Please edit documentation in R/arithmetic.R
 \name{minus}
 \alias{minus}
-\title{prefix alias for \code{a - b}}
-\usage{
-minus()
-}
+\title{Prefix function binding for \code{-}}
 \description{
-prefix alias for \code{a - b}
+\code{minus(a, b)} is equivalent to \code{a - b}.
 }

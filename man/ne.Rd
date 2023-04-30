@@ -2,10 +2,7 @@
 % Please edit documentation in R/logic.R
 \name{ne}
 \alias{ne}
-\title{ne(a, b) = a != b}
-\usage{
-ne()
-}
+\title{Prefix function binding for \code{!=}}
 \description{
-ne(a, b) = a != b
+\code{ne(a, b)} is equivalent to \code{a != b}.
 }

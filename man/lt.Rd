@@ -2,10 +2,7 @@
 % Please edit documentation in R/logic.R
 \name{lt}
 \alias{lt}
-\title{lt(a, b) = a < b}
-\usage{
-lt()
-}
+\title{Prefix function binding for \code{<}}
 \description{
-lt(a, b) = a < b
+\code{lt(a, b)} is equivalent to \code{a < b}.
 }

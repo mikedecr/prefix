@@ -2,10 +2,10 @@
 % Please edit documentation in R/set.R
 \name{isin}
 \alias{isin}
-\title{isin(a, b) = a \%in\% b}
-\usage{
-isin(x, table)
-}
+\title{Prefix function binding for \code{\%in\%}}
 \description{
-isin(a, b) = a \%in\% b
+\code{isin(a, b)} is equivalent to \code{a \%in\% b}.
+}
+\seealso{
+\code{\link[=is.element]{is.element()}}
 }

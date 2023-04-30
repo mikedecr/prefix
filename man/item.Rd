@@ -2,10 +2,7 @@
 % Please edit documentation in R/set.R
 \name{item}
 \alias{item}
-\title{item(a, b) = a[\link{b}]}
-\usage{
-item()
-}
+\title{Prefix function binding for \code{[[}}
 \description{
-item(a, b) = a[\link{b}]
+\code{item(a, b)} is equivalent to \code{a[[b]]}.
 }

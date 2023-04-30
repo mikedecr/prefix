@@ -2,10 +2,7 @@
 % Please edit documentation in R/arithmetic.R
 \name{dot}
 \alias{dot}
-\title{prefix alias for \code{a \%*\% b}}
-\usage{
-dot()
-}
+\title{Prefix function binding for \code{\%*\%}}
 \description{
-prefix alias for \code{a \%*\% b}
+\code{dot(a, b)} is equivalent to \code{a \%*\% b}.
 }

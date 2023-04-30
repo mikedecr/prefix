@@ -2,10 +2,7 @@
 % Please edit documentation in R/logic.R
 \name{item_and}
 \alias{item_and}
-\title{item_and(a, b) = a & b}
-\usage{
-item_and()
-}
+\title{Prefix function binding for \code{&&}}
 \description{
-item_and(a, b) = a & b
+\code{item_and(a, b)} is equivalent to \code{a && b}.
 }

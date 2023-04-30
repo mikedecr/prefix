@@ -2,10 +2,7 @@
 % Please edit documentation in R/logic.R
 \name{or}
 \alias{or}
-\title{or(a, b) = a | b}
-\usage{
-or()
-}
+\title{Prefix function binding for \code{|}}
 \description{
-or(a, b) = a | b
+\code{or(a, b)} is equivalent to \code{a | b}.
 }

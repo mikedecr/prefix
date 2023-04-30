@@ -2,10 +2,7 @@
 % Please edit documentation in R/arithmetic.R
 \name{div}
 \alias{div}
-\title{prefix alias for \code{a / b}}
-\usage{
-div()
-}
+\title{Prefix function binding for \code{/}}
 \description{
-prefix alias for \code{a / b}
+\code{div(a, b)} is equivalent to \code{a / b}.
 }
